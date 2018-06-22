@@ -122,9 +122,6 @@
       </div>
     </section>
 
-
-
-
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -143,7 +140,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://media.gettyimages.com/photos/owner-of-general-stores-in-his-shop-picture-id149770207" alt="">
+              <img class="img-fluid" src="img/picserv/serviciosg.jpg" alt="">
             </div>
             <div class="textsub">
               <h4>Servicios Generales</h4>
@@ -157,7 +154,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://media.gettyimages.com/photos/owner-of-general-stores-in-his-shop-picture-id149770207" alt="">
+              <img class="img-fluid" src="img/picserv/facilities.jpg">
             </div>
             <div class="textsub">
               <h4>Facilities Management</h4>
@@ -171,7 +168,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://media.gettyimages.com/photos/owner-of-general-stores-in-his-shop-picture-id149770207" alt="">
+              <img class="img-fluid" src="img/picserv/interioresminkay.jpg">
             </div>
             <div class="textsub">
               <h4>INTERIORISMO</h4>
@@ -185,7 +182,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://media.gettyimages.com/photos/owner-of-general-stores-in-his-shop-picture-id149770207" alt="">
+              <img class="img-fluid" src="img/picserv/serving.jpg">
             </div>
             <div class="textsub">
               <h4>SERVICIOS DE INGENIERÍA</h4>
@@ -199,7 +196,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://media.gettyimages.com/photos/owner-of-general-stores-in-his-shop-picture-id149770207" alt="">
+              <img class="img-fluid" src="img/picserv/eco.jpg" >
             </div>
             <div class="textsub">
               <h4>SISTEMAS ECOEFICIENTES</h4>
@@ -213,7 +210,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="https://media.gettyimages.com/photos/owner-of-general-stores-in-his-shop-picture-id149770207" alt="">
+              <img class="img-fluid" src="img/picserv/appmovil.png">
             </div>
             <div class="textsub">
               <h4>APLICACIONES WEB</h4>
@@ -237,7 +234,7 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        Ofrecemos un servicio integral: realizamos visitas de inspección periódicas, visitas de emergencia y/o visitas de mantenimiento preventivo en la frecuencia requerida
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -257,7 +254,7 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+       Administramos de forma integral y óptima sus instalaciones y equipamiento, respondiendo en tiempo real a sus solicitudes.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -277,7 +274,7 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        Desarrollamos proyectos acompañando al cliente en cada etapa del mismo, brindando en todo momento el asesoramiento que el cliente requiere
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -297,7 +294,7 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        Ofrecemos servicios especializados en proyectos en el ámbito de la ingeniería civil.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -317,7 +314,7 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        Nuestra propuesta viene de la mano con la implementación de sistemas que garanticen ahorros en un marco del cuidado del medio ambiente, utilizando de manera más responsable los recursos naturales como el agua y la disminución de la emisión de contaminantes.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -331,13 +328,17 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">APLOCACIONES WEB</h5>
+        <h5 class="modal-title">APLICACIONES WEB</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+      <p>  Analizamos los requerimientos de su empresa, buscando la mejor solución que se adapte a sus necesidades.</p>
+        
+      <p>    
+        Diseñamos y Desarrollamos Aplicaciones Web y Móviles a la medida del cliente, empleando programación tradicional, programación web y bases de datos utilizando herramientas de desarrollo java, android, pl/sql, php, python, JavaScript y HTML5.
+      </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -360,7 +361,7 @@
 
 
 <div class="container">
-    <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="2500">
+    <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="1500">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active text-center p-4">
               <div class="testmin">
@@ -452,7 +453,7 @@
       
         <div class="copyright-right">
     
-          <span class="frase"> Todos los derechos reservados. Desarrollado por MINKAY <i class="fa fa-copyright "></i></span> 
+          <span class="frase"> Todos los derechos reservados. Desarrollado por Proyecto Minkay <i class="fa fa-copyright "></i></span> 
           <span class="frase"> 2018  </span>
         </div>
 
