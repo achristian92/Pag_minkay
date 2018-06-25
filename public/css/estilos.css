@@ -20,7 +20,7 @@ a:hover {
   color: #fed136 !important;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 0.5px;
@@ -222,7 +222,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px;
+  margin: 0 0 20px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -303,7 +303,8 @@ a.navbar-brand.js-scroll-trigger{
 
 .textsub{
   text-align: center;
-  padding-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 footer{ background-color: #1a0000;
@@ -338,4 +339,46 @@ margin-bottom: 2.5em;
 .frase{
   color: white;
 }
+
+#contact{
+  padding: 30px; 
+  background-color: #292f34!important
+}
+
+.subiz{
+  font-family: calibri; font-size: 2rem; color: #d5d7d9; display:inline
+}
+
+.pct{
+  color: #aaacad; font-family: arial; display:inline;
+}
+
+#btnct{
+  border-radius: 0px
+}
+
+#imgmodal{
+  width: 100%
+}
+
+.listmodd{
+  list-style-type: none; 
+  padding-left: 0; 
+  font-family: Verdana;
+  font-size: 14px; 
+  padding-top: 5px
+}
+
+.form-control::placeholder{
+  opacity: 0.4;
+  color:  #4c4c4c
+};
+
+
+
+
+
+
+
+
 

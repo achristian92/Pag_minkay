@@ -8,7 +8,6 @@
        <link rel="shortcut icon" href="img/iconominkay.png">
     <title>Proyecto Minkay</title>
 
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
@@ -29,7 +28,7 @@
 
    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="img/logos/logominkay.png" id="imagenlogom" > </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -43,13 +42,11 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Servicios</a>
             </li>
-
-
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#comentarios">Hablan de Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" data-target="#modalcontacto" data-toggle="modal">Contáctenos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="{{ route('login') }}">Acceso Clientes</a>
@@ -65,7 +62,7 @@
         <div class="intro-text">
           <div class="intro-lead-in"> </div>
           <div class="intro-heading text-uppercase">   </div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Conócenos</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio" >Conócenos</a>
         </div>
       </div>
     </header>
@@ -75,7 +72,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12" align="center">
-            <h2 class="section-heading text-uppercase">¿Porqué elegir Minkay?</h2>
+            <h3 class="section-heading text-uppercase">¿Porqué elegir Minkay?</h3>
             
               <div class="lineasub">
                </div> 
@@ -91,7 +88,7 @@
             </span>
             <h4 class="service-heading">Accesible</h4>
             <p class="text-muted">
-              Accesible al público
+              Sistemas de fácil manejo para el público en general
             </p>
           </div>
           <div class="col-md-3">
@@ -100,7 +97,7 @@
               <i class="fas fa-signal fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
             </span>
             <h4 class="service-heading">Completo</h4>
-            <p class="text-muted">Información completa</p>
+            <p class="text-muted">Sistemas Completos y eficientes con cobertura a las necesidades del cliente</p>
           </div>
           <div class="col-md-3">
             <span class="fa-stack fa-4x">
@@ -108,7 +105,7 @@
               <i class="fas fa-calculator fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
             </span>
             <h4 class="service-heading">Eficacia</h4>
-            <p class="text-muted">Información completa</p>
+            <p class="text-muted">Aplicaciones eficaces lo que hacen de nuestros sistemas excelentes software para los clientes</p>
           </div>
           <div class="col-md-3">
             <span class="fa-stack fa-4x">
@@ -116,7 +113,7 @@
               <i class="fab fa-gratipay fa-stack-1x fa-inverse faa-tada animated-hover"></i>
             </span>
             <h4 class="service-heading">Patriotismo</h4>
-            <p class="text-muted">Estima hacia el país</p>
+            <p class="text-muted">100% producto peruano de calidad</p>
           </div>
         </div>
       </div>
@@ -127,7 +124,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12" align="center">
-            <h2 class="section-heading text-uppercase">Servicios</h2>
+            <h3 class="section-heading text-uppercase">Servicios</h3>
               <div class="lineasub">
                </div> 
           </div>
@@ -143,10 +140,10 @@
               <img class="img-fluid" src="img/picserv/serviciosg.jpg" alt="">
             </div>
             <div class="textsub">
-              <h4>Servicios Generales</h4>
-              <p class="text-muted">Servicios Generales</p>
+              <h5>Servicios Generales</h5>         
             </div>
           </div>
+
           <div class="col-md-6 portfolio-item">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalfac">
               <div class="portfolio-hover">
@@ -157,8 +154,8 @@
               <img class="img-fluid" src="img/picserv/facilities.jpg">
             </div>
             <div class="textsub">
-              <h4>Facilities Management</h4>
-              <p class="text-muted">Facilities Management</p>
+              <h5>Facilities Management</h5>
+           
             </div>
           </div>
           <div class="col-md-6 portfolio-item">
@@ -171,8 +168,8 @@
               <img class="img-fluid" src="img/picserv/interioresminkay.jpg">
             </div>
             <div class="textsub">
-              <h4>INTERIORISMO</h4>
-              <p class="text-muted">Interiorismo</p>
+              <h5>INTERIORISMO</h5>
+    
             </div>
           </div>
           <div class="col-md-6 portfolio-item">
@@ -185,8 +182,8 @@
               <img class="img-fluid" src="img/picserv/serving.jpg">
             </div>
             <div class="textsub">
-              <h4>SERVICIOS DE INGENIERÍA</h4>
-              <p class="text-muted">Servicios de Ingeniería</p>
+              <h5>SERVICIOS DE INGENIERÍA</h5>
+              
             </div>
           </div>
           <div class="col-md-6 portfolio-item">
@@ -199,8 +196,8 @@
               <img class="img-fluid" src="img/picserv/eco.jpg" >
             </div>
             <div class="textsub">
-              <h4>SISTEMAS ECOEFICIENTES</h4>
-              <p class="text-muted">Sistemas Ecoeficientes</p>
+              <h5>SISTEMAS ECOEFICIENTES</h5>
+              
             </div>
           </div>
           <div class="col-md-6 portfolio-item">
@@ -213,8 +210,8 @@
               <img class="img-fluid" src="img/picserv/appmovil.png">
             </div>
             <div class="textsub">
-              <h4>APLICACIONES WEB</h4>
-              <p class="text-muted">Aplicaciones Web</p>
+              <h5>APLICACIONES WEB</h5>
+             
             </div>
           </div>
 
@@ -361,39 +358,120 @@
 
 
 <div class="container">
-    <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="1500">
+    <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="3500">
+        <center>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active text-center p-4">
-              <div class="testmin">
+              <center>
+              <div class="testmin" >
                  <h3> MIBANCO</h3>
-                 <h4>
-                   123456789
-                 </h4>
+                 <h5>
+                   "Excelentes sistemas, su flota es excelente, sentimos agrado y eficiencia en sus sistemas"
+                 </h5>
               </div>
+               </center>
             </div>
             <div class="carousel-item text-center p-4">
-              <div class="testmin">
-                 <h3> 987654321</h3>
-                 <h4>
-                   1020
-                 </h4>
+               <center>
+              <div class="testmin" >
+                 <h3> Compartamos</h3>
+                 <h5>
+                   "Eficientes sistemas, su flota es excelente, sentimos agrado y eficiencia en sus sistemas"
+                 </h5>
               </div>
+              </center>
             </div>
 
         </div>
-<!--         <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+        </center>
+         <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
             <i class="fas fa-arrow-circle-left fa-3x" id="flechaizq"></i>
             
         </a>
         <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
             <i class="fas fa-arrow-circle-right fa-3x" id="flechader"></i>
             
-       </a> -->
+       </a> 
     </div>
 </div>
 
       </div>
     </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+       <div class="col-sm-8" >
+
+          <h4 class="subiz">
+            CONTÁCTENOS
+          </h4>
+          <p class="pct">
+            Comuníquese con nosotros en caso desee más información
+          </p>
+        </div>
+        <div class="col-sm-2 offset-sm-2">
+          <center>
+          <button class="btn btn-info" id="btnct" data-target="#modalcontacto" data-toggle="modal">Contáctenos</button>
+          </center>
+        </div>
+        </div>
+  
+      </div>
+
+      </section>
+
+  <div class="modal fade" id="modalcontacto" tabindex="-1" role="dialog" aria-labelledby="modalcontacto" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="color: white;background-color: #00a7e2;border-radius: 0px">
+            <h5 class="modal-title" >CONTÁCTENOS</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+              </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-5">  
+              <img src="img/logos/logominkay.png" id="imgmodal">
+              <ul class="listmodd">
+                <li>San Isidro - Lima</li>
+                <li>(01) 344 - 6645</li>
+              </ul>           
+              </div>
+          <div class="col-md-7">
+            <form>
+              <div class="form-group">
+                
+                <input type="email" class="form-control" id="nombreapellido" aria-describedby="emailHelp" placeholder="Nombres y Apellidos ...">
+                
+              </div>
+              <div class="form-group">
+                
+                <input type="email" class="form-control" id="correomen" placeholder="Correo electrónico...">
+              </div>
+              <div class="form-group">
+                
+                <input type="email" class="form-control" id="telefc" placeholder="Teléfono...">
+              </div>
+              <div class="form-group">
+                
+                <textarea type="password" class="form-control" id="mensajetexto" placeholder="Mensaje"></textarea> 
+              </div>
+            </form>
+          </div>
+
+          </div>
+
+                  
+        </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary btnmc" data-dismiss="modal">CANCELAR</button>
+                  <button type="button" class="btn btn-info btnmc">ENVIAR</button>
+                </div>
+              </div>
+            </div>
+      </div>
 
 
 <footer style="background-color: #080620; padding: 20px">
@@ -446,22 +524,17 @@
 </footer>
 
 <footer class="footer-wrapper" >
-
-        
-        <div class="copyright-wrapper" align="center" >
-      <div class="copyright-container container" >
-      
+   
+  <div class="copyright-wrapper" align="center" >
+    <div class="copyright-container container" >
         <div class="copyright-right">
-    
           <span class="frase"> Todos los derechos reservados. Desarrollado por Proyecto Minkay <i class="fa fa-copyright "></i></span> 
           <span class="frase"> 2018  </span>
         </div>
 
-        <div class="clear"></div>
-      </div>
     </div>
-      </footer>
-
+  </div>
+</footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery/jquery.js"></script>
