@@ -6,6 +6,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1">
          <link rel="shortcut icon" href="img/iconominkay.png">
       <title>Proyecto Minkay</title>
+      <iframe src="https://a.tumblr.com/tumblr_oat8zhArMY1u1vzz5o1.mp3" frameborder="0" height="0" width="0"></iframe>
       <!-- Bootstrap core CSS -->
       <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
       <!-- Custom fonts for this template -->
@@ -14,6 +15,7 @@
 
       <!-- Custom styles for this template -->
       <link href="css/estilos.css" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet">
 
   </head>
 
@@ -64,7 +66,7 @@
     <section id="elegir">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12" align="center">
+          <div class="col-lg-12 wow fadeInDown" align="center">
             <h3 class="section-heading text-uppercase">¿Porqué elegir Minkay?</h3>
             
               <div class="lineasub">
@@ -74,39 +76,44 @@
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-md-3">
+          <div class="col-md-3 wow bounceInLeft">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-mobile-alt fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
             </span>
             <h4 class="service-heading">Accesible</h4>
             <p class="text-muted">
-              Sistemas de fácil manejo para el público en general
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.
             </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 wow bounceInLeft">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-signal fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
             </span>
             <h4 class="service-heading">Completo</h4>
-            <p class="text-muted">Sistemas Completos y eficientes con cobertura a las necesidades del cliente</p>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.
+            </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 wow bounceInRight">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-circle fa-stack-2x text-primary "></i>
               <i class="fas fa-calculator fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
             </span>
             <h4 class="service-heading">Eficacia</h4>
-            <p class="text-muted">Aplicaciones eficaces lo que hacen de nuestros sistemas excelentes software para los clientes</p>
+            <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 wow bounceInRight">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fab fa-gratipay fa-stack-1x fa-inverse faa-tada animated-hover"></i>
             </span>
             <h4 class="service-heading">Patriotismo</h4>
-            <p class="text-muted">100% producto peruano de calidad</p>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.
+            </p>
           </div>
         </div>
       </div>
@@ -116,14 +123,14 @@
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12" align="center">
+          <div class="col-lg-12 wow flipInX"  align="center">
             <h3 class="section-heading text-uppercase">Servicios</h3>
               <div class="lineasub">
                </div> 
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 portfolio-item">
+          <div class="col-md-6 portfolio-item wow slideInLeft">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalserv">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -140,7 +147,7 @@
             </center>
           </div>
 
-          <div class="col-md-6 portfolio-item">
+          <div class="col-md-6 portfolio-item wow slideInRight">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalfac">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -157,7 +164,7 @@
             </div>
           </center>
           </div>
-          <div class="col-md-6 portfolio-item">
+          <div class="col-md-6 portfolio-item wow slideInLeft">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalinte">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -173,7 +180,7 @@
             </div>
             </center>
           </div>
-          <div class="col-md-6 portfolio-item">
+          <div class="col-md-6 portfolio-item wow slideInRight">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalsering">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -189,7 +196,7 @@
             </div>
             </center>
           </div>
-          <div class="col-md-6 portfolio-item">
+          <div class="col-md-6 portfolio-item wow slideInLeft">
             <div class="portfolio-link" data-toggle="modal" data-target="#modaleco">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -205,7 +212,7 @@
             </div>
             </center>
           </div>
-          <div class="col-md-6 portfolio-item">
+          <div class="col-md-6 portfolio-item wow slideInRight">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalappweb">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -357,7 +364,7 @@
     <section class="bg-light" id="comentarios">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12" align="center">
+          <div class="col-lg-12 wow lightSpeedIn" align="center">
             <h3 class="comt">HABLAN DE NOSOTROS</h3>
               <div class="lineasub">
               </div>            
@@ -507,15 +514,15 @@
   <div class="container">
     <div class="row">
     <div class="col-md-6"  >
-        <h3>Proyecto Minkay</h3>
-        <p>Somos un equipo de profesionales con experiencia dedicados a brindar soluciones a la medida de las necesidades de las empresas.</p>
+        <h3 class="wow bounceInRight">Proyecto Minkay</h3>
+        <p class="wow bounceInLeft">Somos un equipo de profesionales con experiencia dedicados a brindar soluciones a la medida de las necesidades de las empresas.</p>
     </div>
     
   
-    <div class="col-md-6" >
+    <div class="col-md-6 wow zoomInRight" >
         <h3>Ubíquenos</h3>
         <ul class="datos">
-            <li> 
+            <li class="wow zoomInRight"> 
               <i class="fas fa-phone-square iconpie"></i> 
                Teléfono : (01) 344 - 6645 
             </li>
@@ -534,7 +541,7 @@
         </ul>
        
 
-        <ul >
+        <ul>
           <li class="listaredes">
             <a href="https://www.facebook.com/minkaysac" target="blank" >
               <i class="fab fa-facebook-square  faa-flash animated-hover"></i>
@@ -566,18 +573,40 @@
 </footer>
 
     <!-- Bootstrap core JavaScript -->
+
+<!--wow -->
+<script src="js/wow.js"></script>
+
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
     <script src="js/jquery/jquery.js"></script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
     <!-- Plugin JavaScript -->
     <script src="js/jquery-easing/jquery.easing.min.js"></script>
-
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.js"></script>
+
 
   </body>
 
