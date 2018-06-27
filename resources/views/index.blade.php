@@ -1,30 +1,23 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="shortcut icon" href="img/iconominkay.png">
+      <title>Proyecto Minkay</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom fonts for this template -->
+      <link href="font-awesome/fonts/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+      <link href="font-awesome/fonts/css/animationfont.css" rel="stylesheet" type="text/css">
 
-       <link rel="shortcut icon" href="img/iconominkay.png">
-    <title>Proyecto Minkay</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="font-awesome/fonts/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/fonts/css/animationfont.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/estilos.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/estilos.css" rel="stylesheet">
 
   </head>
 
-  <body id="page-top">
+  <body>
 
    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -139,9 +132,12 @@
               </div>
               <img class="img-fluid" src="img/picserv/serviciosg.jpg" alt="">
             </div>
+            <center>
             <div class="textsub">
-              <h5>Servicios Generales</h5>         
+              <h5>Servicios Generales</h5>       
+
             </div>
+            </center>
           </div>
 
           <div class="col-md-6 portfolio-item">
@@ -153,10 +149,13 @@
               </div>
               <img class="img-fluid" src="img/picserv/facilities.jpg">
             </div>
+            <center>
             <div class="textsub">
               <h5>Facilities Management</h5>
+
            
             </div>
+          </center>
           </div>
           <div class="col-md-6 portfolio-item">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalinte">
@@ -167,10 +166,12 @@
               </div>
               <img class="img-fluid" src="img/picserv/interioresminkay.jpg">
             </div>
+            <center>
             <div class="textsub">
-              <h5>INTERIORISMO</h5>
+              <h5>Interiorismo</h5>
     
             </div>
+            </center>
           </div>
           <div class="col-md-6 portfolio-item">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalsering">
@@ -181,10 +182,12 @@
               </div>
               <img class="img-fluid" src="img/picserv/serving.jpg">
             </div>
+            <center>
             <div class="textsub">
-              <h5>SERVICIOS DE INGENIERÍA</h5>
+              <h5>Servicios de Ingeniería</h5>
               
             </div>
+            </center>
           </div>
           <div class="col-md-6 portfolio-item">
             <div class="portfolio-link" data-toggle="modal" data-target="#modaleco">
@@ -195,10 +198,12 @@
               </div>
               <img class="img-fluid" src="img/picserv/eco.jpg" >
             </div>
+            <center>
             <div class="textsub">
-              <h5>SISTEMAS ECOEFICIENTES</h5>
+              <h5>Sistemas Ecoeficientes</h5>
               
             </div>
+            </center>
           </div>
           <div class="col-md-6 portfolio-item">
             <div class="portfolio-link" data-toggle="modal" data-target="#modalappweb">
@@ -209,15 +214,18 @@
               </div>
               <img class="img-fluid" src="img/picserv/appmovil.png">
             </div>
+            <center>
             <div class="textsub">
-              <h5>APLICACIONES WEB</h5>
+              <h5>Aplicaciones</h5>
              
             </div>
+            </center>
           </div>
 
         </div>
       </div>
-    </section>
+
+   </section>
 
 <div class="modal fade" id="modalserv">
   <div class="modal-dialog">
@@ -350,7 +358,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12" align="center">
-            <h2 class="section-heading text-uppercase">Hablan de Nosotros</h2>
+            <h3 class="comt">HABLAN DE NOSOTROS</h3>
               <div class="lineasub">
               </div>            
           </div>
@@ -359,31 +367,47 @@
 
 <div class="container">
     <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="3500">
-        <center>
+        
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active text-center p-4">
-              <center>
-              <div class="testmin" >
-                 <h3> MIBANCO</h3>
-                 <h5>
-                   "Excelentes sistemas, su flota es excelente, sentimos agrado y eficiencia en sus sistemas"
-                 </h5>
+            <div class="carousel-item active p-4">
+             
+              <div class="row" >
+                <div class="col-md-4">
+                  <img src="https://i2.wp.com/www.businessempresarial.com.pe/wp-content/uploads/2017/12/e18d24ac-91be-4642-9705-fb04d3b463fa.jpg?w=1144" style="width: 75%">
+                  
+                </div>
+                <div class="col-sm-8">
+                 
+                 <h4 class="tescl">
+                   "Sentimos usabilidad, eficiencia, y una gran conformidad para el uso de los sistemas que proyecto minkay realiza, estamos conformes, buena gestion de"
+                 </h4>
+                 <h5 class="textcarr"> MIBANCO</h5>
               </div>
-               </center>
             </div>
-            <div class="carousel-item text-center p-4">
-               <center>
-              <div class="testmin" >
-                 <h3> Compartamos</h3>
-                 <h5>
-                   "Eficientes sistemas, su flota es excelente, sentimos agrado y eficiencia en sus sistemas"
-                 </h5>
+
+          </div>
+               
+            
+            <div class="carousel-item p-4">
+              
+              <div class="row" >
+                <div class="col-md-4">
+                  <img src="https://www.compartamos.com.pe/wps/wcm/connect/d7b9a600414882b8a14aa393e1f61293/logo_nodo.png?MOD=AJPERES" style="width: 85%">
+                  
+                </div>
+                <div class="col-sm-8">
+                 
+                 <h4 class="tescl">
+                   "Sentimos usabilidad, eficiencia, y una gran conformidad para el uso de los sistemas que proyecto minkay realiza, estamos conformes, buena gestion de"
+                 </h4>
+                 <h5 class="textcarr"> COMPARTAMOS</h5>
               </div>
-              </center>
+            </div>
+             
             </div>
 
         </div>
-        </center>
+        
          <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
             <i class="fas fa-arrow-circle-left fa-3x" id="flechaizq"></i>
             
@@ -401,14 +425,15 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-       <div class="col-sm-8" >
-
+       <div class="col-sm-8" id="textcont" >
+        
           <h4 class="subiz">
             CONTÁCTENOS
           </h4>
           <p class="pct">
             Comuníquese con nosotros en caso desee más información
           </p>
+
         </div>
         <div class="col-sm-2 offset-sm-2">
           <center>
@@ -421,8 +446,9 @@
 
       </section>
 
-  <div class="modal fade" id="modalcontacto" tabindex="-1" role="dialog" aria-labelledby="modalcontacto" >
-    <div class="modal-dialog" role="document">
+
+<div class="modal fade" id="modalcontacto" tabindex="-1" role="dialog" aria-labelledby="modalcontacto">
+    <div class="modal-dialog" role="document" >
       <div class="modal-content">
         <div class="modal-header" style="color: white;background-color: #00a7e2;border-radius: 0px">
             <h5 class="modal-title" >CONTÁCTENOS</h5>
@@ -434,6 +460,9 @@
           <div class="row">
               <div class="col-md-5">  
               <img src="img/logos/logominkay.png" id="imgmodal">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15604.890163451972!2d-77.022344!3d-12.096912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5787fab6e3209266!2sProyecto+Minkay+SAC!5e0!3m2!1ses!2spe!4v1530051717503" allowfullscreen></iframe>
+              </div>
               <ul class="listmodd">
                 <li>San Isidro - Lima</li>
                 <li>(01) 344 - 6645</li>
@@ -474,17 +503,17 @@
       </div>
 
 
-<footer style="background-color: #080620; padding: 20px">
+<footer style="background-color: #080620; padding: 20px; color: #cccbcb">
   <div class="container">
     <div class="row">
     <div class="col-md-6"  >
-        <h3 style="color: #fff">Proyecto Minkay</h3>
-        <p style="color: #fff">Somos un equipo de profesionales con experiencia dedicados a brindar soluciones a la medida de las necesidades de las empresas.</p>
+        <h3>Proyecto Minkay</h3>
+        <p>Somos un equipo de profesionales con experiencia dedicados a brindar soluciones a la medida de las necesidades de las empresas.</p>
     </div>
     
   
     <div class="col-md-6" >
-        <h3 style="color: white" >Ubíquenos</h3>
+        <h3>Ubíquenos</h3>
         <ul class="datos">
             <li> 
               <i class="fas fa-phone-square iconpie"></i> 

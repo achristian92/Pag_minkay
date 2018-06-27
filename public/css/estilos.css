@@ -3,10 +3,7 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
-body {
-  overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+
 
 a {
   color: #fed136;
@@ -20,20 +17,36 @@ a:hover {
   color: #fed136 !important;
 }
 
-h1,h2,h3,h4,h6 {
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  letter-spacing: 0.5px;
+h1,h2,h3,h6 {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 1.5px;
 }
+
+
+@keyframes bgcolor {
+    0% { background-color: #fafafe }
+
+    30% { background-color: #fdfdfe }
+
+    60% { background-color: #f8f8fd }
+
+    90% { background-color: #fdfdfe }
+
+    100% { background-color: #fafafe }
+}
+
+#elegir {
+    animation: bgcolor 2s infinite;
+    animation-direction: alternate;
+}
+
 
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
-section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+.section-heading{
+  transform: scaleY(1.15);
 }
 
 section h3.section-subheading {
@@ -220,7 +233,21 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+
+@keyframes cbcl {
+ 0% { background-color: #eff0ea }
+
+100% { background-color: #eaeff0 }
+}
+
+#portfolio{
+  animation: cbcl 2s infinite;
+  animation-direction: alternate;
+}
+
 #portfolio .portfolio-item {
+
+  
   right: 0;
   margin: 0 0 20px;
 }
@@ -303,15 +330,17 @@ a.navbar-brand.js-scroll-trigger{
 
 .textsub{
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  width: 74%; 
+  background-color: white;
+  color: #3f3f3f;
 }
 
 footer{ background-color: #1a0000;
 padding: 6.5px }
 
 .datos{
-  color: white;
   line-height: 1.5;
   margin-bottom: 0.2rem;
 }
@@ -338,6 +367,7 @@ margin-bottom: 2.5em;
 
 .frase{
   color: white;
+  font-family: Calibri
 }
 
 #contact{
@@ -371,8 +401,64 @@ margin-bottom: 2.5em;
 
 .form-control::placeholder{
   opacity: 0.4;
-  color:  #4c4c4c
-};
+  color:  #4c4c4c;
+}
+
+.modal-content{
+  width: 150%
+}
+.modal{
+  right: 250px;
+}
+
+@media (max-width: 768px) {
+  #textcont{text-align: center}
+
+  div.col-sm-2.offset-sm-2{padding-top: 15px}
+
+  .modal-content{width: 100% !important}
+
+  .modal{ right: 0 !important}
+
+  .textsub{  width: 98%; }
+  
+}
+
+.textcarr{
+  font-size: 1.2rem;
+  font-weight:normal;
+  transform: scaleY(1.1);
+}
+
+.tescl{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-style: oblique;
+  font-family: Calibri;
+}
+
+
+
+.modal{
+  right: 250px;
+  z-index: 9999;
+}
+
+iframe{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.carousel-inner{
+  margin-left: 100px
+}
+
+.comt{
+  transform: scaleY(1.1);
+}
+
+
+
 
 
 
