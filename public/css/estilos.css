@@ -335,6 +335,14 @@ a.navbar-brand.js-scroll-trigger{
   width: 74%; 
   background-color: white;
   color: #3f3f3f;
+  font-weight: none;
+  transition: background-color .4s, color .4s, font-weight .4s;
+}
+
+.textsub:hover{
+  background-color: rgba(91, 192, 222, .7);
+  color: white;
+  font-weight: bold;
 }
 
 footer{ background-color: #1a0000;
