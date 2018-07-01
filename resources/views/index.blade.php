@@ -17,9 +17,74 @@
       <link href="css/estilos.css" rel="stylesheet">
       <link href="css/animate.css" rel="stylesheet">
 
+          <script src="js/jquery/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+<script src="js/wow.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+
+
+
   </head>
 
   <body>
+
+      <script type="text/javascript">
+    $(window).on('load',function(){
+        $('#myModal').modal('show');
+    });
+</script>
+
+
+      <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
+    <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Subscribe our Newsletter</h4>
+            </div>
+            <div class="modal-body">
+        <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -579,37 +644,6 @@
 
 
 
-    <!-- Bootstrap core JavaScript -->
-
-<!--wow -->
-<script src="js/wow.js"></script>
-
-  <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'section--purple wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
-  </script>
-
-    <script src="js/jquery/jquery.js"></script>
-    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap/bootstrap.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.js"></script>
