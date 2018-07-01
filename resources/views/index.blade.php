@@ -6,7 +6,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1">
          <link rel="shortcut icon" href="img/iconominkay.png">
       <title>Proyecto Minkay</title>
-      <iframe src="https://a.tumblr.com/tumblr_oat8zhArMY1u1vzz5o1.mp3" frameborder="0" height="0" width="0"></iframe>
+
       <!-- Bootstrap core CSS -->
       <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
       <!-- Custom fonts for this template -->
@@ -571,6 +571,13 @@
     </div>
   </div>
 </footer>
+
+<audio autoplay>
+  <source src="https://a.tumblr.com/tumblr_oat8zhArMY1u1vzz5o1.mp3" type="audio/mpeg">
+  Sucks. Your browser does not support the audio element.
+</audio>
+
+
 
     <!-- Bootstrap core JavaScript -->
 
