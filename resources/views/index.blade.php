@@ -17,11 +17,25 @@
       <link href="css/estilos.css" rel="stylesheet">
       <link href="css/animate.css" rel="stylesheet">
 
+          <script src="js/jquery/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+<script src="js/wow.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+
+
+
   </head>
 
   <body>
 
-<<<<<<< HEAD
 <script type="text/javascript">
     $(window).on('load',function(){
         $('#ModalInicio').modal('show');
@@ -60,8 +74,6 @@
 
 
 
-=======
->>>>>>> parent of 7b5d9c9... modal
    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container-fluid">
@@ -620,37 +632,6 @@
 
 
 
-    <!-- Bootstrap core JavaScript -->
-
-<!--wow -->
-<script src="js/wow.js"></script>
-
-  <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'section--purple wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
-  </script>
-
-    <script src="js/jquery/jquery.js"></script>
-    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap/bootstrap.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.js"></script>
