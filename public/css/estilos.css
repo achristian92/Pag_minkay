@@ -5,11 +5,12 @@
  */
 
 
-a {
+a.nav-link.js-scroll-trigger
+ {
   color: #fed136;
 }
 
-a:hover {
+a.nav-link.js-scroll-trigger:hover {
   color: #fec503;
 }
 
@@ -354,7 +355,7 @@ padding: 6.5px }
 }
 
 ul .listaredes {
-  display: inline;
+ 
   font-size: 35px;
 }
 
@@ -480,6 +481,9 @@ iframe{
 #imgmodi{
   width: 100%
 }
+
+.lisred{color: white
+  !important}
 
 
 

@@ -481,29 +481,29 @@
       </div>
     </section>
 
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-       <div class="col-sm-8" id="textcont" >
-        
-          <h4 class="subiz">
-            CONTÁCTENOS
-          </h4>
-          <p class="pct">
-            Comuníquese con nosotros en caso desee más información
-          </p>
+<!--       <section id="contact">
+        <div class="container">
+          <div class="row">
+         <div class="col-sm-8" id="textcont" >
+          
+            <h4 class="subiz">
+              CONTÁCTENOS
+            </h4>
+            <p class="pct">
+              Comuníquese con nosotros en caso desee más información
+            </p>
 
+          </div>
+          <div class="col-sm-2 offset-sm-2">
+            <center>
+            <button class="btn btn-info" id="btnct" data-target="#modalcontacto" data-toggle="modal">Contáctenos</button>
+            </center>
+          </div>
+          </div>
+    
         </div>
-        <div class="col-sm-2 offset-sm-2">
-          <center>
-          <button class="btn btn-info" id="btnct" data-target="#modalcontacto" data-toggle="modal">Contáctenos</button>
-          </center>
-        </div>
-        </div>
-  
-      </div>
 
-      </section>
+        </section> -->
 
 
 <div class="modal fade" id="modalcontacto" tabindex="-1" role="dialog" aria-labelledby="modalcontacto">
@@ -563,52 +563,76 @@
 
 
 <footer style="background-color: #080620; padding: 20px; color: #cccbcb" id="moar">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-    <div class="col-md-6"  >
+    <div class="col-md-4">
         <h3 class="wow bounceInRight">Proyecto Minkay</h3>
-        <p class="wow bounceInLeft">Somos un equipo de profesionales con experiencia dedicados a brindar soluciones a la medida de las necesidades de las empresas.</p>
+        <p class="wow bounceInLeft" style="font-size: 14px">Somos un equipo de profesionales con experiencia dedicados a brindar soluciones a la medida de las necesidades de las empresas.</p>
+    </div>
+    <div class="col-md-8">
+      
+      <div class="row">
+          <div class="col-md-4 wow zoomInRight" >
+            <ul style="list-style-type: none; font-size: 14px">
+              <h3>Ubíquenos</h3>
+              
+                <li>Av. Canaval y Moreyra 425</li>
+                <li>Oficina 41</li>
+                <li>San Isidro</li>
+              </ul>
+              
+          </div>
+          <div class="col-md-4 wow zoomInRight" >
+              <ul style="list-style-type: none; font-size: 14px">
+              <h3> Contáctenos</h3>
+            
+
+                <li class="wow zoomInRight"> 
+                    <i class="fas fa-phone-square iconpie"></i> 
+                     Teléfono : (01) 344 - 6645 
+                </li>
+                <li>
+                   <i class="fas fa-at iconpie"></i>
+                    E-mail : ventas@minkay.com.pe
+                </li>
+                <li> 
+                    <i class="fas fa-mobile-alt iconpie"></i>
+                     Celular: <a href="tel:+51968885288" style="color:white">+51968885288</a>
+                </li>
+                
+              </ul>
+          </div>
+          <div class="col-md-4 wow zoomInRight" >
+
+            <ul style="list-style-type: none; font-size: 14px">
+              <h3> Síguenos</h3>
+            
+                      <li >
+                        <a href="https://www.facebook.com/minkaysac" target="blank" class="lisred" >
+                          <i class="fab fa-facebook-square  faa-flash animated-hover"></i> Facebook
+                        </a>
+                      </li>
+
+                      <li> 
+                        <a href="https://www.linkedin.com/in/minkay-proyectos-y-servicios-2a334a149" target="blank" class="lisred" >
+                          <i class="fab fa-linkedin faa-flash animated-hover"></i> LinkedIn
+                        </a>
+                      </li>
+              </ul>
+          </div>
+
+      </div>
+    </div>
+  
+
+
+
+    
+
+
+    </div>
     </div>
     
-  
-    <div class="col-md-6 wow zoomInRight" >
-        <h3>Ubíquenos</h3>
-        <ul class="datos">
-            <li class="wow zoomInRight"> 
-              <i class="fas fa-phone-square iconpie"></i> 
-               Teléfono : (01) 344 - 6645 
-            </li>
-            <li>
-             <i class="fas fa-at iconpie"></i>
-              E-mail : ventas@minkay.com.pe
-            </li>
-            <li> 
-              <i class="fas fa-mobile-alt iconpie"></i>
-               Celular: <a href="tel:+51968885288" style="color:white">+51968885288</a>
-            </li>
-            <li>
-             <i class="fas fa-map-marker-alt iconpie"></i>
-              Ubicación : Av. Canaval y Moreyra 425 - San Isidro / Oficina 41
-            </li>
-        </ul>
-       
-
-        <ul>
-          <li class="listaredes">
-            <a href="https://www.facebook.com/minkaysac" target="blank" >
-              <i class="fab fa-facebook-square  faa-flash animated-hover"></i>
-            </a>
-          </li>
-          <li class="listaredes"> 
-            <a href="https://www.linkedin.com/in/minkay-proyectos-y-servicios-2a334a149" target="blank" >
-              <i class="fab fa-linkedin faa-flash animated-hover"></i>
-            </a>
-          </li>
-        </ul>
-
-    </div>
-    </div>
-    </div>
 </footer>
 
 <footer class="footer-wrapper" >
