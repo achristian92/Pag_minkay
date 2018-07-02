@@ -17,17 +17,30 @@
       <link href="css/estilos.css" rel="stylesheet">
       <link href="css/animate.css" rel="stylesheet">
 
+          <script src="js/jquery/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+<script src="js/wow.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+
+
+
   </head>
 
   <body>
 
-<<<<<<< HEAD
 <script type="text/javascript">
     $(window).on('load',function(){
         $('#ModalInicio').modal('show');
     });
 </script>
-
 
 <script>
     wow = new WOW(
@@ -40,7 +53,7 @@
       }
     );
     wow.init();
-    document.getElementById('moar').onclick = function() {
+    document.getElementById('portfolio').onclick = function() {
       var section = document.createElement('section');
       section.className = 'section--purple wow fadeInDown';
       this.parentNode.insertBefore(section, this);
@@ -60,12 +73,10 @@
 
 
 
-=======
->>>>>>> parent of 7b5d9c9... modal
    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="img/logos/logominkay.png" id="imagenlogom" > </a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="img/logos/logominkayblanco.png" id="imagenlogom" > </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -551,7 +562,7 @@
       </div>
 
 
-<footer style="background-color: #080620; padding: 20px; color: #cccbcb">
+<footer style="background-color: #080620; padding: 20px; color: #cccbcb" id="moar">
   <div class="container">
     <div class="row">
     <div class="col-md-6"  >
@@ -620,37 +631,6 @@
 
 
 
-    <!-- Bootstrap core JavaScript -->
-
-<!--wow -->
-<script src="js/wow.js"></script>
-
-  <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'section--purple wow fadeInDown';
-      this.parentNode.insertBefore(section, this);
-    };
-  </script>
-
-    <script src="js/jquery/jquery.js"></script>
-    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap/bootstrap.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.js"></script>

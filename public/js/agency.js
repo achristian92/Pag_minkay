@@ -30,8 +30,10 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $('#mainNav img').attr('src','img/logos/logominkay.png');
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $('#mainNav img').attr('src','img/logos/logominkayblanco.png');
     }
   };
   // Collapse now if page is not at top
