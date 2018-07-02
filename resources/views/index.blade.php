@@ -36,14 +36,14 @@
 
   <body>
 
-      <script type="text/javascript">
+<script type="text/javascript">
     $(window).on('load',function(){
-        $('#myModal').modal('show');
+        $('#ModalInicio').modal('show');
     });
 </script>
 
 
-      <script>
+<script>
     wow = new WOW(
       {
         animateClass: 'animated',
@@ -59,30 +59,18 @@
       section.className = 'section--purple wow fadeInDown';
       this.parentNode.insertBefore(section, this);
     };
-  </script>
-
-    <div id="myModal" class="modal fade">
-    <div class="modal-dialog">
+</script>
+<center>
+<div id="ModalInicio" class="modal fade">
+    <div class="modal-dialog" id="mod_ai">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Subscribe our Newsletter</h4>
-            </div>
             <div class="modal-body">
-        <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email Address">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
+                <img src="img/modalinicio/oplaboral.jpg" id="imgmodi">
             </div>
         </div>
     </div>
 </div>
+</center>
 
 
 
