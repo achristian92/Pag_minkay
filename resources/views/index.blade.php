@@ -127,47 +127,90 @@
             
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-3 wow bounceInLeft">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-mobile-alt fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
-            </span>
-            <h4 class="service-heading">Accesible</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.
-            </p>
-          </div>
-          <div class="col-md-3 wow bounceInLeft">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-signal fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
-            </span>
-            <h4 class="service-heading">Completo</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.
-            </p>
-          </div>
-          <div class="col-md-3 wow bounceInRight">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary "></i>
-              <i class="fas fa-calculator fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
-            </span>
-            <h4 class="service-heading">Eficacia</h4>
-            <p class="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.</p>
-          </div>
-          <div class="col-md-3 wow bounceInRight">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fab fa-gratipay fa-stack-1x fa-inverse faa-tada animated-hover"></i>
-            </span>
-            <h4 class="service-heading">Patriotismo</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet lacus ac risus molestie sagittis. Sed lobortis.
-            </p>
-          </div>
+
+        <div class="row">
+
+              <div class="col-md-6" >
+                  <div class="row secdescq">
+
+                    <div class="col-md-3 wow bounceInLeft">
+                        <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fas fa-mobile-alt fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-9">
+                                      <h4 class="service-heading">Accesible</h4>
+                        <p class="text-muted" >
+                            Productos accesibles y de fácil manejo a la comodidad del cliente
+                        </p>
+                    </div>
+                  </div>
+
+                  <div class="row secdescq">
+
+                      <div class="col-md-3 wow bounceInLeft">
+                            <span class="fa-stack fa-4x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fas fa-signal fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
+                            </span>
+                      </div>
+                      <div class="col-md-9">
+                            <h4 class="service-heading">Completo</h4>
+                            <p class="text-muted">
+                              Productos Completos y eficaces
+                            </p>
+                      </div>
+                  </div>
+                
+              </div>
+
+
+              <div class="col-md-6 bloqueimg">
+
+                <img src="img/pqm/bloque1.png" class="imgpqm">
+              </div>
         </div>
+
+        <div class="row">
+          
+               <div class="col-md-6 bloqueimg">
+
+                <img src="img/pqm/bloque2.png" class="imgpqm">
+              </div>
+
+          <div class="col-md-6">
+                <div class="row secdescq">
+                      <div class="col-md-3 wow bounceInLeft">
+                          <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary "></i>
+                            <i class="fas fa-calculator fa-stack-1x fa-inverse faa-pulse animated-hover"></i>
+                          </span>
+                      </div>
+                      <div class="col-md-9">
+                          <h4 class="service-heading">Eficacia</h4>
+                          <p class="text-muted">
+                          Productos eficaces y eficientes.</p>
+                      </div>
+                </div>
+
+
+                <div class="row secdescq">
+                      <div class="col-md-3 wow bounceInLeft">
+                          <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fab fa-gratipay fa-stack-1x fa-inverse faa-tada animated-hover"></i>
+                          </span>
+                      </div>
+                      <div class="col-md-9">
+                          <h4 class="service-heading">Patriotismo</h4>
+                          <p class="text-muted">
+                            Producto 100% hecho por peruanos 
+                          </p>
+                      </div>
+                </div>
+        </div>
+
       </div>
     </section>
 
