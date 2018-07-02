@@ -19,7 +19,7 @@ a:hover {
 
 h1,h2,h3,h6 {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 
@@ -46,7 +46,7 @@ section {
 }
 
 .section-heading{
-  transform: scaleY(1.2);
+  transform: scaleY(1.15);
 }
 
 section h3.section-subheading {
@@ -429,13 +429,7 @@ margin-bottom: 2.5em;
   .modal{ right: 0 !important}
 
   .textsub{  width: 98%; }
-
-  #mod_ai {right: 0 !important}
   
-}
-
-#mod_ai {
-  right: 105px;
 }
 
 .textcarr{
@@ -469,16 +463,6 @@ iframe{
 
 .comt{
   transform: scaleY(1.1);
-}
-
-#ModalInicio{
-  right: 0;
-  width: 100%;
-  align-content: center;
-}
-
-#imgmodi{
-  width: 100%
 }
 
 
