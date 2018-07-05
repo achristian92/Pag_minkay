@@ -20,14 +20,15 @@
           <script src="js/jquery/jquery.js"></script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
-<script src="js/wow.js"></script>
+    <script src="js/wow.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery-easing/jquery.easing.min.js"></script>
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
+    <script src="js/jquery.lazyload.js"></script>
+    <script async src="js/addtoany.js"></script>
 
 
 
@@ -35,6 +36,18 @@
   </head>
 
   <body>
+
+
+
+<script >
+  $(document).ready(function(){
+
+  $("img").lazyload({
+    threshold: 200,
+  });
+  
+  });
+  </script>    
 
 <script type="text/javascript">
     $(window).on('load',function(){
@@ -76,7 +89,7 @@
    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="img/logos/logominkayblanco.png" id="imagenlogom" > </a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img data-original="img/logos/logominkayblanco.png" id="imagenlogom" > </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -109,7 +122,7 @@
         <div class="intro-text">
           <div class="intro-lead-in"> </div>
           <div class="intro-heading text-uppercase">   </div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio" >Conócenos</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger wow rollIn" href="#portfolio" >Conócenos</a>
         </div>
       </div>
     </header>
@@ -140,8 +153,8 @@
                         </span>
                     </div>
                     <div class="col-md-9">
-                                      <h4 class="service-heading">Accesible</h4>
-                        <p class="text-muted" >
+                                      <h4 class="service-heading wow bounceInLeft">Accesible</h4>
+                        <p class="text-muted wow bounceInLeft" >
                             Productos accesibles y de fácil manejo a la comodidad del cliente
                         </p>
                     </div>
@@ -168,7 +181,7 @@
 
               <div class="col-md-6 bloqueimg">
 
-                <img src="img/pqm/bloque1.png" class="imgpqm">
+                <img data-original="img/pqm/bloque1.png" class="imgpqm wow bounceInRight">
               </div>
         </div>
 
@@ -176,7 +189,7 @@
           
                <div class="col-md-6 bloqueimg">
 
-                <img src="img/pqm/bloque2.png" class="imgpqm">
+                <img data-original="img/pqm/bloque2.png" class="imgpqm wow bounceInRight">
               </div>
 
           <div class="col-md-6">
@@ -232,7 +245,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/picserv/serviciosg.jpg" alt="">
+              <img class="img-fluid" data-original="img/picserv/serviciosg.jpg" alt="">
             </div>
             <center>
             <div class="textsub">
@@ -249,7 +262,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/picserv/facilities.jpg">
+              <img class="img-fluid" data-original="img/picserv/facilities.jpg">
             </div>
             <center>
             <div class="textsub">
@@ -266,7 +279,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/picserv/interioresminkay.jpg">
+              <img class="img-fluid" data-original="img/picserv/interioresminkay.jpg">
             </div>
             <center>
             <div class="textsub">
@@ -282,7 +295,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/picserv/serving.jpg">
+              <img class="img-fluid" data-original="img/picserv/serving.jpg">
             </div>
             <center>
             <div class="textsub">
@@ -298,7 +311,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/picserv/eco.jpg" >
+              <img class="img-fluid" data-original="img/picserv/eco.jpg" >
             </div>
             <center>
             <div class="textsub">
@@ -314,7 +327,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/picserv/appmovil.png">
+              <img class="img-fluid" data-original="img/picserv/appmovil.png">
             </div>
             <center>
             <div class="textsub">
@@ -475,7 +488,7 @@
              
               <div class="row" >
                 <div class="col-md-4">
-                  <img src="https://i2.wp.com/www.businessempresarial.com.pe/wp-content/uploads/2017/12/e18d24ac-91be-4642-9705-fb04d3b463fa.jpg?w=1144" style="width: 75%">
+                  <img data-original="https://i2.wp.com/www.businessempresarial.com.pe/wp-content/uploads/2017/12/e18d24ac-91be-4642-9705-fb04d3b463fa.jpg?w=1144" style="width: 75%">
                   
                 </div>
                 <div class="col-sm-8">
@@ -494,7 +507,7 @@
               
               <div class="row" >
                 <div class="col-md-4">
-                  <img src="https://www.compartamos.com.pe/wps/wcm/connect/d7b9a600414882b8a14aa393e1f61293/logo_nodo.png?MOD=AJPERES" style="width: 85%">
+                  <img data-original="https://www.compartamos.com.pe/wps/wcm/connect/d7b9a600414882b8a14aa393e1f61293/logo_nodo.png?MOD=AJPERES" style="width: 85%">
                   
                 </div>
                 <div class="col-sm-8">
@@ -561,7 +574,7 @@
         <div class="modal-body">
           <div class="row">
               <div class="col-md-5">  
-              <img src="img/logos/logominkay.png" id="imgmodal">
+              <img data-original="img/logos/logominkay.png" id="imgmodal">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15604.890163451972!2d-77.022344!3d-12.096912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5787fab6e3209266!2sProyecto+Minkay+SAC!5e0!3m2!1ses!2spe!4v1530051717503" allowfullscreen></iframe>
               </div>
@@ -691,18 +704,24 @@
   </div>
 </footer>
 
-<audio autoplay>
+<audio autoplay loop>
   <source src="https://a.tumblr.com/tumblr_oat8zhArMY1u1vzz5o1.mp3" type="audio/mpeg">
   Sucks. Your browser does not support the audio element.
 </audio>
 
 
 
+  <!--Iconos Sociales -->   
+    <div class="a2a_kit a2a_kit_size_32  a2a_floating_style a2a_vertical_style a2a_follow" style="left:0px; top:180px;">
+      <a href="https://es-la.facebook.com/minkaysac/"" class="a2a_button_facebook"></a>
+      <a class="a2a_button_facebook_messenger"></a>
+      <a href="https://www.linkedin.com/company/pminkaysac" class="a2a_button_linkedin"></a>
+      <a class="a2a_button_whatsapp"></a>
+    </div>
 
-    <!-- Custom scripts for this template -->
+<!-- AddToAny END -->
+
     <script src="js/agency.js"></script>
-
-
   </body>
 
 </html>

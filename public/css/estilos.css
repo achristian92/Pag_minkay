@@ -36,10 +36,8 @@ h1,h2,h3,h6 {
     100% { background-color: #fafafe }
 }
 
-#elegir {
-    animation: bgcolor 2s infinite;
-    animation-direction: alternate;
-}
+#elegir {    animation: bgcolor 2s infinite;
+             animation-direction: alternate; }
 
 
 section {
@@ -137,12 +135,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #31626d;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active{
   font-weight: bold;
-  color: #fed136;
+  color: #31626d;
 }
 
 @media (min-width: 992px) {
@@ -177,7 +175,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background: url("../img/imagenfondo.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -436,7 +434,6 @@ margin-bottom: 2.5em;
   .secdescq{ text-align: center; }
 
   .bloqueimg{ display: none }
-  
 }
 
 #mod_ai {
