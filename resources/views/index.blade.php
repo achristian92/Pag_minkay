@@ -75,7 +75,7 @@
 <center>
 <div id="ModalInicio" class="modal fade">
     <div class="modal-dialog" id="mod_ai">
-        <div class="modal-content">
+        <div class="modal-content" id="mdctini">
             <div class="modal-body">
                 <img src="img/modalinicio/oplaboral.jpg" id="imgmodi">
             </div>
@@ -563,8 +563,8 @@
 
 
 <div class="modal fade" id="modalcontacto" tabindex="-1" role="dialog" aria-labelledby="modalcontacto">
-    <div class="modal-dialog" role="document" >
-      <div class="modal-content">
+    <div class="modal-dialog" role="document" id="mddctc" >
+      <div class="modal-content" id="mdctc">
         <div class="modal-header" style="color: white;background-color: #00a7e2;border-radius: 0px">
             <h5 class="modal-title" >CONTÁCTENOS</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -573,8 +573,8 @@
         </div>
         <div class="modal-body">
           <div class="row">
-              <div class="col-md-5">  
-              <img data-original="img/logos/logominkay.png" id="imgmodal">
+              <div class="col-md-6">  
+              <img src="img/logos/logominkay.png" id="imgmodal">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15604.890163451972!2d-77.022344!3d-12.096912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5787fab6e3209266!2sProyecto+Minkay+SAC!5e0!3m2!1ses!2spe!4v1530051717503" allowfullscreen></iframe>
               </div>
@@ -583,7 +583,7 @@
                 <li>(01) 344 - 6645</li>
               </ul>           
               </div>
-          <div class="col-md-7">
+          <div class="col-md-6">
             <form>
               <div class="form-group">
                 
@@ -615,7 +615,8 @@
                 </div>
               </div>
             </div>
-      </div>
+</div>
+
 
 
 <footer style="background-color: #080620; padding: 20px; color: #cccbcb" id="moar">

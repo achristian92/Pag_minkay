@@ -152,6 +152,7 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+    text-align: center;
   }
   #mainNav .navbar-brand {
         -webkit-transition: all 0.3s;
@@ -411,8 +412,8 @@ margin-bottom: 2.5em;
   color:  #4c4c4c;
 }
 
-.modal-content{
-  width: 150%
+#modalctc{
+  width: 160%
 }
 .modal{
   right: 250px;
@@ -423,7 +424,7 @@ margin-bottom: 2.5em;
 
   div.col-sm-2.offset-sm-2{padding-top: 15px}
 
-  .modal-content{width: 100% !important}
+  #modalctc{width: 100% !important}
 
   .modal{ right: 0 !important}
 
@@ -434,10 +435,26 @@ margin-bottom: 2.5em;
   .secdescq{ text-align: center; }
 
   .bloqueimg{ display: none }
+
+  #ModalInicio{ width: 100% }
+
+  #modalini {width: 100% !important}
+
+  #mdctini{width: 100% !important}
+
+  #mdctc{ width: 100% !important }
+
+  #mddctc{ right: 0 !important  }
+}
+
+
+
+#modalini{
+  width: 125%
 }
 
 #mod_ai {
-  right: 105px;
+  right: 80px;
 }
 
 .textcarr{
@@ -498,6 +515,22 @@ iframe{
   .imgpqm{
     width: 85%
   }
+
+#modalcontacto{
+  width: 100%
+}
+
+#mdctini{
+  width: 130%
+}
+
+#mdctc{
+  width: 135%
+}
+
+#mddctc{
+  right: 70px
+}
 
 
 
